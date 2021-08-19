@@ -67,8 +67,8 @@ body{
      margin: 50px 0 100px
  }
 
- button{
-     border: none;
+ a{
+     border: solid var(--Very-light-gray);
      border-radius: 40px;
      background-color: var(--Very-light-gray);
      padding: 15px 30px;
@@ -77,17 +77,21 @@ body{
      font-size: 1.1em;
      letter-spacing: 0.5px;
  }
-
-.article_1 button{
+ 
+.article_1 a{
     color: var(--Bright-orange);
 }
-.article_2 button{
+.article_2 a{
     color: var(--Dark-cyan);
 }
-.article_3 button{
+.article_3 a{
     color: var(--Very-dark-cyan);
 }
-
+a:hover{
+    cursor: pointer;
+    background-color: transparent;
+    color:var(--Very-light-gray)
+ }
 
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
